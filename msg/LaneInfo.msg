@@ -1,0 +1,11 @@
+geometry_msgs/Polygon left_lane
+geometry_msgs/Polygon right_lane
+geometry_msgs/Polygon center_line
+float32 lane_width
+float32 confidence
+builtin_interfaces/Time stamp
+float32[] lane_markings
+string lane_type
+float32 lane_confidence
+float32 lane_angle
+float32 curvature_radius
