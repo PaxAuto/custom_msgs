@@ -21,8 +21,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ObstacleDetectionData.msg"
   "msg/ObstacleDetectionArray.msg"
   "msg/LaneInfo.msg"
-  "msg/LaneObstacleTrafficSignalArray.msg"
+  "msg/LaneObstacleArray.msg"
   "msg/PickupDropPose.msg"
+  "msg/DetectedObjectsPositionArray.msg"
+  "msg/DetectedObject.msg"
   DEPENDENCIES std_msgs geometry_msgs builtin_interfaces
 )
 
